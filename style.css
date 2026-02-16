@@ -88,28 +88,28 @@ button{
 
 .info-header{
   display: flex;
-  height: 40px;
+  height: 80px;
   margin: auto;
   background-color: #F9FAF8;
   color: #1F2937;
   justify-content: center;
   align-items: center;
+  font-size: 36px;
+  font-weight: 900;
 }
 
 .action{
   display: flex;
   margin: auto;
-  height: 400px;
+  height: 300px;
   background-color:#F9FAF8;
   justify-content:center;
-  align-items: center;
   
 }
 
 img{
-  height: 150px;
-  width: 150px;
-  border: 2px solid #3882F6 ;
+  height: 200px;
+  width: 200px;
   border-radius: 4px;
 }
 
@@ -118,27 +118,71 @@ figcaption{
 }
 
 .thor{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: auto;
   background-color: #E5E7EB;
   height: 400px;
   color: #1F2937;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.thor-body{
+  width: 60%;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.thor-quote{
+  width: 50%;
+  text-align: end;
+  font-weight: 900;
 }
 
 .product{
+  display: flex;
   background-color: #F9FAF8;
   margin: auto;
-  height: 200px;
-
+  height: 300px;
+  justify-content: center;
+  align-items: center;
 }
+
+.product-box{
+  padding: 20px;
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  background-color: #3882F6;
+  border-radius: 4px;
+  color: #F9FAF8;
+}
+
+.product-button{
+  border: 2px solid #F9FAF8;
+}
+
+
+
+
 
 footer{
   display: flex;
   background-color: #1F2937;
   margin: auto;
   color: #F9FAF8;
-  height: 30px;
+  height: 60px;
   justify-content: center;  
   align-items: center;
-  font-size: small;
+  font-size: medium;
 }
 
+button:hover{
+  background-color: #1F2937;
+  cursor: pointer;
+}
