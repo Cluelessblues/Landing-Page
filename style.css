@@ -1,0 +1,144 @@
+body{
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+.header-container{
+  display:flex;
+  height:60px;
+  width: 100%;
+  background-color: #1F2937;
+  color:#F9FAF8;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;  
+}
+
+.header-logo{
+  width: 25%;
+  font-size:24px;
+  font-weight: 900;
+}
+
+.header-link{
+  display: flex;
+  color: #6A717A;
+  width: 25%;
+  justify-content: right;
+  gap: 20px;
+ 
+  
+}
+
+span{
+  display: flex;
+}
+
+
+
+.header-body{
+  display:flex;
+  min-width: 0px;
+  height: 400px;
+  width: 100%;
+  background-color: #1F2937;
+  color: #F9FAF8;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+}
+
+.website{
+  min-width: 0px;
+  width: 25%;
+  height: 400px;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+strong{
+  font-size: 48px;
+  font-weight: 900;
+}
+
+button{
+  border-radius: 4px;
+  color: #F9FAF8;
+  background-color: #3882F6;
+  border: 0px;
+  height: 30px;
+  width: 100px;
+}
+
+.header-button{
+  margin-top: 10px;
+}
+
+.website-image{
+  width: 25%;
+  height: 200px;
+  text-align: center;  
+  align-content: center;
+  border: 2px solid snow;
+  border-radius: 4px;
+  background-color: #6D747D;
+}
+
+.info-header{
+  display: flex;
+  height: 40px;
+  margin: auto;
+  background-color: #F9FAF8;
+  color: #1F2937;
+  justify-content: center;
+  align-items: center;
+}
+
+.action{
+  display: flex;
+  margin: auto;
+  height: 400px;
+  background-color:#F9FAF8;
+  justify-content:center;
+  align-items: center;
+  
+}
+
+img{
+  height: 150px;
+  width: 150px;
+  border: 2px solid #3882F6 ;
+  border-radius: 4px;
+}
+
+figcaption{
+  font-size: small;
+}
+
+.thor{
+  margin: auto;
+  background-color: #E5E7EB;
+  height: 400px;
+  color: #1F2937;
+}
+
+.product{
+  background-color: #F9FAF8;
+  margin: auto;
+  height: 200px;
+
+}
+
+footer{
+  display: flex;
+  background-color: #1F2937;
+  margin: auto;
+  color: #F9FAF8;
+  height: 30px;
+  justify-content: center;  
+  align-items: center;
+  font-size: small;
+}
+
